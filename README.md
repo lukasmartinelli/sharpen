@@ -9,7 +9,7 @@ to improve my skills
 ## Challenges
 
 - **[sqrt.py](challenges/sqrt.py)**: Caluclate square root using binary search
-- **[max_subarray.py](challenges/max_subarray.py)**: Caluclate the max sum of a subarray.
+- **[max_subarray.py](challenges/max_subarray.py)**: Caluclate the max sum ofa subarray.
 - **[spiral_order.py](challenges/spiral_order.py)**: Return a 2D matrix in spiral order
 - **[compare_version_numbers.py](challenges/compare_version_numbers.py)**: Compare version strings like v1.1 and v1.2.
 - **[excel_column_number.py](challenges/excel_column_number.py)**: Return column number based on Excel encoded column title
@@ -20,3 +20,9 @@ to improve my skills
 - **[rectangle_intersection.py](challenges/rectangle_intersection.py)**: Find intersection of two rectangles
 - **[rotate_matrix.py](challenges/rotate_matrix.py)**: Rotate matrix 90 degrees in place
 - **[zero_matrix.py](challenges/zero_matrix.py)**: Zero entire column and row if element is zero
+- **[length_last_word.py](challenges/length_last_word.py)**: Calculate length of last word in sentence
+- **[zigzag_string.py](challenges/zigzag_string.py)**: Print text in a zigzag pattern to the screen
+- **[palindrome_integer.py](challenges/palindrome_integer.py)**: Check if integer is palindrome without converting it to text
+- **[palindrome_string.py](challenges/palindrome_string.py)**: Check if sentence is a palindrome
+- **[merge_overlapping_intervals.py](challenges/merge_overlapping_intervals.py)**: Merge overlapping intervals of an array together
+- **[needle_haystack.py](challenges/needle_haystack.py)**: Find substring in a string (without fancy KMP or Boyer-Moore)
