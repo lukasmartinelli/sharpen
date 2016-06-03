@@ -27,3 +27,4 @@ to improve my skills
 - **[merge_overlapping_intervals.py](challenges/merge_overlapping_intervals.py)**: Merge overlapping intervals of an array together
 - **[needle_haystack.py](challenges/needle_haystack.py)**: Find substring in a string (without fancy KMP or Boyer-Moore)
 - **[diffk.py](challenges/diffk.py)**: Find two values in sorted array with a difference of k
+- **[container_most_water.py](challenges/container_most_water.py)**: Based  on vertical lines on a x-axis find the lines having the largest area.
