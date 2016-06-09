@@ -4,7 +4,7 @@
 
 One day after another a new challenge, a new problem to sharpen
 the tools. This is a collection of small (< 1h) Python challenges
-to improve my skills
+to improve my skills.
 
 ## Challenges
 
@@ -31,3 +31,19 @@ to improve my skills
 - **[roman_to_integer.py](challenges/roman_to_integer.py)**: Calculate integer from roman literals
 - **[integer_to_roman.py](challenges/integer_to_roman.py)**: Create roman literal from integer
 - **[longest_palindromic_substring.py](challenges/longest_palindromic_substring.py)**: Find longest palindrome substring
+
+- **[rotated_sorted_array_search.py](challenges/rotated_sorted_array_search.py)**: A sorted array is rotated at one place
+- **[bit_single_number.py](challenges/bit_single_number.py)**: Find single number in array of pairs
+
+## Stack
+
+- **[generate_parentheses.py](challenges/generate_parentheses.py)**: Validate parentheses
+- **[min_stack.py](challenges/min_stack.py)**: Create a min stack preserving order of elements
+- **[nearest_smallest_element.py](challenges/nearest_smallest_element.py)**: Find nearest element in array
+- **[simplify_directory_path.py](challenges/simplify_directory_path.py)**: Simplify UNIX path
+
+## Linked Lists
+
+- **[interesection_linked_list.py](challenges/interesection_linked_list.py)**: Find intersection of two linked lists
+- **[swap_list_nodes_in_pairs.py](challenges/swap_list_nodes_in_pairs.py)**: Swap nodes in linked list in pairs
+- **[partition_list.py](challenges/partition_list.py)**: Partition linked list at pivot
