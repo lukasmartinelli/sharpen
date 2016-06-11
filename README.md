@@ -65,3 +65,8 @@ to improve my skills.
 - **[partition_list.py](challenges/partition_list.py)**: Partition linked list at pivot
 - **[add_two_numbers_list.py](challenges/add_two_numbers_list.py)**: Add to numbers as linked lists
 - **[list_cycle.py](challenges/list_cycle.py)**: Detect cycle in linked list
+
+### Backtracking / Recursion
+
+- **[modular_exponentiation.py](challenges/modular_exponentiation.py)**: Modular exponentiation is a type of exponentiation performed over a modulus.
+- **[permutations.py](challenges/permutations.py)**: Generate all permutations in a list
