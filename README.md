@@ -71,3 +71,7 @@ to improve my skills.
 - **[modular_exponentiation.py](challenges/modular_exponentiation.py)**: Modular exponentiation is a type of exponentiation performed over a modulus.
 - **[permutations.py](challenges/permutations.py)**: Generate all permutations in a list
 - **[letter_phone.py](challenges/letter_phone.py)**: Generate all possible digits on letter phone
+
+### Hashing
+
+- **[two_sum.py](challenges/two_sum.py)**: Given an array of integers, find two numbers such that they add up to a specific target number
