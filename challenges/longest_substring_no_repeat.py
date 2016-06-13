@@ -1,19 +1,16 @@
 def length_longest_substring(text):
-    longest_substring = 0
-    for i, from_char in enumerate(text):
-        unique_chars = {}
+    max_length = start = 0
+    used_chars = {}
 
-        for j, to_char in enumerate(text[i:]):
-            if to_char in unique_chars:
-                longest_substring = max(longest_substring, len(unique_chars))
-                break
-            else:
-                unique_chars[to_char] = j
+    for i, c in enumerate(text):
+        if c in used_chars and start <= used_chars[c]:
+            start = used_chars[c] + 1
+        else:
+            max_length = max(max_length, i - start + 1)
 
-        # After last run choose max again
-        longest_substring = max(longest_substring, len(unique_chars))
+        used_chars[c] = i
 
-    return longest_substring
+    return max_length
 
 
 def test_length_longest_substring():
