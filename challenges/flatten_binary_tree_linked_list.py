@@ -8,17 +8,23 @@ class TreeNode():
         return '<TreeNode {}>'.format(self.val)
 
 
-def flatten(n):
-    if n.left is not None:
-        last_leaf = find_last_leaf(n.left)
-        last_leaf.right = n.right
+def flatten(root):
+    n = root
+    while True:
+        if n.left is not None:
+            last_leaf = find_last_leaf(n.left)
+            last_leaf.right = n.right
 
-        n.right = n.left
-        n.left = None
-        flatten(n.right)
-    elif n.right is not None:
-        flatten(n.right)
-    return n
+            n.right = n.left
+            n.left = None
+
+            n = n.right
+        elif n.right is not None:
+            n = n.right
+        else:
+            break
+
+    return root
 
 
 def find_last_leaf(n):

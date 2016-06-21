@@ -86,3 +86,4 @@ to improve my skills.
 - **[sorted_array_balanced_bst.py.py](challenges/sorted_array_balanced_bst.py.py)**: Turn sorted array into balanced BST
 - **[invert_binary_tree.py.py](challenges/invert_binary_tree.py.py)**: Invert binary tree
 - **[path_sum.py.py](challenges/path_sum.py.py)**: Compare path sum of leaf nodes
+- **[flatten_binary_tree_linked_list.py.py](challenges/flatten_binary_tree_linked_list.py.py)**: Flatten a binary tree into a right sided linked list
