@@ -83,3 +83,6 @@ to improve my skills.
 
 - **[identical_binary_tree.py](challenges/identical_binary_tree.py)**: Compare two binary trees
 - **[inorder_traversal.py](challenges/inorder_traversal.py)**: Binary tree traversal
+- **[sorted_array_balanced_bst.py.py](challenges/sorted_array_balanced_bst.py.py)**: Turn sorted array into balanced BST
+- **[invert_binary_tree.py.py](challenges/invert_binary_tree.py.py)**: Invert binary tree
+- **[path_sum.py.py](challenges/path_sum.py.py)**: Compare path sum of leaf nodes
