@@ -87,3 +87,5 @@ to improve my skills.
 - **[invert_binary_tree.py.py](challenges/invert_binary_tree.py.py)**: Invert binary tree
 - **[path_sum.py.py](challenges/path_sum.py.py)**: Compare path sum of leaf nodes
 - **[flatten_binary_tree_linked_list.py.py](challenges/flatten_binary_tree_linked_list.py.py)**: Flatten a binary tree into a right sided linked list
+- **[balanced_binary_tree.py.py](challenges/balanced_binary_tree.py.py)**: Check if a tree is balanced
+- **[kth_smallest_tree_elem.py.py](challenges/kth_smallest_tree_elem.py.py)**: Find the kth smallest element in a binary search tree
