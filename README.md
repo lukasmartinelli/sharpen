@@ -90,3 +90,5 @@ to improve my skills.
 - **[balanced_binary_tree.py.py](challenges/balanced_binary_tree.py.py)**: Check if a tree is balanced
 - **[kth_smallest_tree_elem.py.py](challenges/kth_smallest_tree_elem.py.py)**: Find the kth smallest element in a binary search tree
 - **[merge_k_sorted_lists.py.py](challenges/merge_k_sorted_lists.py.py)**: Merge k sorted lists into one
+- **[valid_bst.py.py](challenges/valid_bst.py.py)**: Check if binary tree is valid BST
+- **[zigzag_level_bst_traversal.py.py](challenges/zigzag_level_bst_traversal.py.py)**: Traverse BST in zig ziag level order
