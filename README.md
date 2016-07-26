@@ -17,6 +17,7 @@ to improve my skills.
 - **[spiral_order.py](challenges/spiral_order.py)**: Return a 2D matrix in spiral order
 - **[temp_tracker.py](challenges/temp_tracker.py)**: Temperature tracker to calculate mean, mode, min, max of temperature events
 - **[max_subarray.py](challenges/max_subarray.py)**: Caluclate the max sum ofa subarray.
+- **[find_permutation.py](challenges/find_permutation.py)**: Find first permutation based on two conditions
 
 ### Math
 
@@ -83,12 +84,12 @@ to improve my skills.
 
 - **[identical_binary_tree.py](challenges/identical_binary_tree.py)**: Compare two binary trees
 - **[inorder_traversal.py](challenges/inorder_traversal.py)**: Binary tree traversal
-- **[sorted_array_balanced_bst.py.py](challenges/sorted_array_balanced_bst.py.py)**: Turn sorted array into balanced BST
-- **[invert_binary_tree.py.py](challenges/invert_binary_tree.py.py)**: Invert binary tree
-- **[path_sum.py.py](challenges/path_sum.py.py)**: Compare path sum of leaf nodes
-- **[flatten_binary_tree_linked_list.py.py](challenges/flatten_binary_tree_linked_list.py.py)**: Flatten a binary tree into a right sided linked list
-- **[balanced_binary_tree.py.py](challenges/balanced_binary_tree.py.py)**: Check if a tree is balanced
-- **[kth_smallest_tree_elem.py.py](challenges/kth_smallest_tree_elem.py.py)**: Find the kth smallest element in a binary search tree
-- **[merge_k_sorted_lists.py.py](challenges/merge_k_sorted_lists.py.py)**: Merge k sorted lists into one
-- **[valid_bst.py.py](challenges/valid_bst.py.py)**: Check if binary tree is valid BST
-- **[zigzag_level_bst_traversal.py.py](challenges/zigzag_level_bst_traversal.py.py)**: Traverse BST in zig ziag level order
+- **[sorted_array_balanced_bst.py](challenges/sorted_array_balanced_bst.py)**: Turn sorted array into balanced BST
+- **[invert_binary_tree.py](challenges/invert_binary_tree.py)**: Invert binary tree
+- **[path_sum.py](challenges/path_sum.py)**: Compare path sum of leaf nodes
+- **[flatten_binary_tree_linked_list.py](challenges/flatten_binary_tree_linked_list.py)**: Flatten a binary tree into a right sided linked list
+- **[balanced_binary_tree.py](challenges/balanced_binary_tree.py)**: Check if a tree is balanced
+- **[kth_smallest_tree_elem.py](challenges/kth_smallest_tree_elem.py)**: Find the kth smallest element in a binary search tree
+- **[merge_k_sorted_lists.py](challenges/merge_k_sorted_lists.py)**: Merge k sorted lists into one
+- **[valid_bst.py](challenges/valid_bst.py)**: Check if binary tree is valid BST
+- **[zigzag_level_bst_traversal.py](challenges/zigzag_level_bst_traversal.py)**: Traverse BST in zig ziag level order
