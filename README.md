@@ -18,6 +18,7 @@ to improve my skills.
 - **[temp_tracker.py](challenges/temp_tracker.py)**: Temperature tracker to calculate mean, mode, min, max of temperature events
 - **[max_subarray.py](challenges/max_subarray.py)**: Caluclate the max sum ofa subarray.
 - **[find_permutation.py](challenges/find_permutation.py)**: Find first permutation based on two conditions
+- **[max_consecutive_gap.py](challenges/max_consecutive_gap.py)**: Find max consecutive gap of sorted form of unsorted numbers
 
 ### Math
 
