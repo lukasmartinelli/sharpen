@@ -35,6 +35,7 @@ to improve my skills.
 - **[roman_to_integer.py](challenges/roman_to_integer.py)**: Calculate integer from roman literals
 - **[integer_to_roman.py](challenges/integer_to_roman.py)**: Create roman literal from integer
 - **[length_last_word.py](challenges/length_last_word.py)**: Calculate length of last word in sentence
+- **[longest_common_prefix.py](challenges/longest_common_prefix.py)**: Find longest common prefix in all strings
 
 ### Bit Manipulation
 
@@ -84,7 +85,9 @@ to improve my skills.
 ### Trees
 
 - **[identical_binary_tree.py](challenges/identical_binary_tree.py)**: Compare two binary trees
-- **[inorder_traversal.py](challenges/inorder_traversal.py)**: Binary tree traversal
+- **[inorder_traversal.py](challenges/inorder_traversal.py)**: Binary tree inorder traversal
+- **[postorder_traversal.py](challenges/postorder_traversal.py)**: Binary tree postorder traversal
+- **[preorder_traversal.py](challenges/preorder_traversal.py)**: Binary tree preorder traversal
 - **[sorted_array_balanced_bst.py](challenges/sorted_array_balanced_bst.py)**: Turn sorted array into balanced BST
 - **[invert_binary_tree.py](challenges/invert_binary_tree.py)**: Invert binary tree
 - **[path_sum.py](challenges/path_sum.py)**: Compare path sum of leaf nodes
@@ -94,3 +97,5 @@ to improve my skills.
 - **[merge_k_sorted_lists.py](challenges/merge_k_sorted_lists.py)**: Merge k sorted lists into one
 - **[valid_bst.py](challenges/valid_bst.py)**: Check if binary tree is valid BST
 - **[zigzag_level_bst_traversal.py](challenges/zigzag_level_bst_traversal.py)**: Traverse BST in zig ziag level order
+- **[max_tree_depth.py](challenges/max_tree_depth.py)**: Longest path to leaf
+- **[min_tree_depth.py](challenges/min_tree_depth.py)**: Shortest path to leaf
