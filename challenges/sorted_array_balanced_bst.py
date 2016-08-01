@@ -45,7 +45,6 @@ def test_is_bst():
     assert n6.val == 6
     assert n6.left.val == 5
     assert n6.right is None
-    assert False
 
 
 def test_single_node_bst():

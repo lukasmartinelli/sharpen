@@ -99,3 +99,9 @@ to improve my skills.
 - **[zigzag_level_bst_traversal.py](challenges/zigzag_level_bst_traversal.py)**: Traverse BST in zig ziag level order
 - **[max_tree_depth.py](challenges/max_tree_depth.py)**: Longest path to leaf
 - **[min_tree_depth.py](challenges/min_tree_depth.py)**: Shortest path to leaf
+- **[sum_root_leaf_numbers.py](challenges/sum_root_leaf_numbers.py)**: Sum all root-to-leaf paths (node values are digits)
+
+### Graphs
+- **[level_order.py](challenges/level_order.py)**: Traverse tree in level order (BFS)
+- **[black_shapes.py](challenges/black_shapes.py)**: Given a board of black and white fields find the number of black connected shapes
+
