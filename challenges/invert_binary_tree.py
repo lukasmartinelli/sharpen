@@ -8,18 +8,16 @@ class TreeNode():
         return '<TreeNode {}>'.format(self.val)
 
 
-def invert_tree(n):
-    if n is None:
-        return
+def invert_tree(node):
+    if node is None:
+        return node
 
-    tmp = n.left
-    n.left = n.right
-    n.right = tmp
+    node.left = invert_tree(node.left)
+    node.right = invert_tree(node.right)
 
-    invert_tree(n.left)
-    invert_tree(n.right)
+    node.left, node.right = node.right, node.left
 
-    return n
+    return node
 
 
 def test_invert_tree():
