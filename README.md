@@ -33,6 +33,7 @@ in the comments of the corresponding Python files.
 - [x] **[palindrome_integer.py](challenges/math/palindrome_integer.py)**: Check if integer is palindrome without converting it to text.
 - [x] **[excel_column_number.py](challenges/math/excel_column_number.py)**: Return column number based on Excel encoded column title.
 - [x] **[factorial_trailing_zeros.py](challenges/math/factorial_trailing_zeros.py)**: Count trailing zeros in factorial (`n!`).
+- [x] **[greatest_common_divisor.py](challenges/math/greatest_common_divisor.py)**: Greatest common divisor of two numbers.
 - [ ] **[two_egg_problem.py](challenges/math/two_egg_problem.py)**: Solve the [Two Egg Problem](http://datagenetics.com/blog/july22012/index.html) :interrobang:.
 
 ### Strings
@@ -47,6 +48,7 @@ in the comments of the corresponding Python files.
 - [x] **[length_last_word.py](challenges/string/length_last_word.py)**: Calculate length of last word in sentence.
 - [x] **[longest_common_prefix.py](challenges/string/longest_common_prefix.py)**: Find longest common prefix in all strings.
 - [x] **[reverse_string_inplace.py](challenges/string/reverse_string_inplace.py)**: Reverse string or array in place.
+- [ ] **[string_multiplication.py](challenges/string/string_multiplication.py)**: Multiply two numbers represented as strings without big integer libraries. :interrobang:
 
 ### Bit Manipulation
 
