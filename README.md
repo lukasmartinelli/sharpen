@@ -13,15 +13,15 @@ in the comments of the corresponding Python files.
 
 ### Arrays
 
-- **[zero_matrix.py](challenges/zero_matrix.py)**: Zero entire column and row in 2D matrix if element is `0`.
-- **[merge_overlapping_intervals.py](challenges/merge_overlapping_intervals.py)**: Merge overlapping intervals in array together.
-- **[array_duplicate.py](challenges/array_duplicate.py)**: Find the first duplicate in an array of integers.
-- **[rotate_matrix.py](challenges/rotate_matrix.py)**: Rotate 2D matrix 90 degrees.
-- **[spiral_order.py](challenges/spiral_order.py)**: Return a 2D matrix in spiral order
-- **[temp_tracker.py](challenges/temp_tracker.py)**: Temperature tracker to calculate mean, mode, min, max of temperature events
-- **[max_subarray.py](challenges/max_subarray.py)**: Caluclate the max sum ofa subarray.
-- **[find_permutation.py](challenges/find_permutation.py)**: Find first permutation based on two conditions
-- **[max_consecutive_gap.py](challenges/max_consecutive_gap.py)**: Find max consecutive gap of sorted form of unsorted numbers
+- [x] **[zero_matrix.py](challenges/zero_matrix.py)**: Zero entire column and row in 2D matrix if element is `0`.
+- [x] **[merge_overlapping_intervals.py](challenges/merge_overlapping_intervals.py)**: Merge overlapping intervals in array together.
+- [x] **[array_duplicate.py](challenges/array_duplicate.py)**: Find the first duplicate in an array of integers.
+- [x] **[rotate_matrix.py](challenges/rotate_matrix.py)**: Rotate 2D matrix 90 degrees.
+- [x] **[spiral_order.py](challenges/spiral_order.py)**: Return a 2D matrix in spiral order
+- [x] **[temp_tracker.py](challenges/temp_tracker.py)**: Temperature tracker to calculate mean, mode, min, max of temperature events
+- [x] **[max_subarray.py](challenges/max_subarray.py)**: Caluclate the max sum ofa subarray.
+- [x] **[find_permutation.py](challenges/find_permutation.py)**: Find first permutation based on two conditions
+- [ ] **[max_consecutive_gap.py](challenges/max_consecutive_gap.py)**: Find max consecutive gap of sorted form of unsorted numbers :interrobang:
 
 ### Math
 
