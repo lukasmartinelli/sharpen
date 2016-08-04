@@ -8,12 +8,15 @@ to improve my skills.
 
 ## Challenges
 
+The challenges are explained in detail
+in the comments of the corresponding Python files.
+
 ### Arrays
 
-- **[zero_matrix.py](challenges/zero_matrix.py)**: Zero entire column and row if element is zero
-- **[merge_overlapping_intervals.py](challenges/merge_overlapping_intervals.py)**: Merge overlapping intervals of an array together
-- **[array_duplicate.py](challenges/array_duplicate.py)**: Find first duplicate in a array
-- **[rotate_matrix.py](challenges/rotate_matrix.py)**: Rotate matrix 90 degrees in place
+- **[zero_matrix.py](challenges/zero_matrix.py)**: Zero entire column and row if element is `0` in a `m x n` matrix of `0`s and `1`s.
+- **[merge_overlapping_intervals.py](challenges/merge_overlapping_intervals.py)**: Merge overlapping intervals in array together (e.g. `[(1, 3), (2, 5)] -> [(1, 5)]`).
+- **[array_duplicate.py](challenges/array_duplicate.py)**: Find the first duplicate in an array of `n + 1` integers between `1` and `n`.
+- **[rotate_matrix.py](challenges/rotate_matrix.py)**: Rotate `n x n` matrix 90 degrees.
 - **[spiral_order.py](challenges/spiral_order.py)**: Return a 2D matrix in spiral order
 - **[temp_tracker.py](challenges/temp_tracker.py)**: Temperature tracker to calculate mean, mode, min, max of temperature events
 - **[max_subarray.py](challenges/max_subarray.py)**: Caluclate the max sum ofa subarray.
@@ -36,6 +39,7 @@ to improve my skills.
 - **[integer_to_roman.py](challenges/integer_to_roman.py)**: Create roman literal from integer
 - **[length_last_word.py](challenges/length_last_word.py)**: Calculate length of last word in sentence
 - **[longest_common_prefix.py](challenges/longest_common_prefix.py)**: Find longest common prefix in all strings
+- **[reverse_string_inplace.py](challenges/reverse_string_inplace.py)**: Reverse string or array in place
 
 ### Bit Manipulation
 
