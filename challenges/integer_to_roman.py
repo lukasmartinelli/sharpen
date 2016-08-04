@@ -44,7 +44,3 @@ def test_int_to_roman():
     assert int_to_roman(20) == 'XX'
     assert int_to_roman(2014) == 'MMXIV'
     assert int_to_roman(1490) == 'MCDXC'
-
-
-if __name__ == '__main__':
-    test_int_to_roman()

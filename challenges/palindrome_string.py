@@ -1,3 +1,12 @@
+"""
+Given a string, determine if it is a palindrome, considering only alphanumeric
+characters and ignoring cases.
+
+For example 'A man, a plan, a canal: Panama' is a palindrome
+while 'race a car' is not.
+"""
+
+
 def is_palindrome(sentence):
     def normalize():
         alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
@@ -14,4 +23,6 @@ def is_palindrome(sentence):
     normalized_sentence = list(normalize())
     return normalized_sentence == list(reversed(normalized_sentence))
 
-assert is_palindrome("A man, a plan, a canal: Panama")
+
+def test_is_palindrome():
+    assert is_palindrome("A man, a plan, a canal: Panama")

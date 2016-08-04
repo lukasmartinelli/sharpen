@@ -1,13 +1,13 @@
+"""
+Compare version strings are non-empty and contain only digits
+and the . character.
+
+Example of ordering:
+0.1 < 1.1 < 1.2 < 1.13 < 1.13.4
+"""
 
 
 def compare_version(version1, version2):
-    """
-    Compare version strings are non-empty and contain only digits
-    and the . character.
-
-    Example of ordering:
-    0.1 < 1.1 < 1.2 < 1.13 < 1.13.4
-    """
 
     def revisions(v):
         if len(v.strip()) == 0:
@@ -34,10 +34,11 @@ def compare_version(version1, version2):
     return 0
 
 
-assert compare_version('1', '1.0') == 0
-assert compare_version('1', '') == 1
-assert compare_version('1', '1') == 0
-assert compare_version('1.1', '1') == 1
-assert compare_version('0.1', '1.1') == -1
-assert compare_version('1.13', '1.13.4') == -1
-assert compare_version('2.5', '2.5.1') == -1
+def test_compare_version():
+    assert compare_version('1', '1.0') == 0
+    assert compare_version('1', '') == 1
+    assert compare_version('1', '1') == 0
+    assert compare_version('1.1', '1') == 1
+    assert compare_version('0.1', '1.1') == -1
+    assert compare_version('1.13', '1.13.4') == -1
+    assert compare_version('2.5', '2.5.1') == -1

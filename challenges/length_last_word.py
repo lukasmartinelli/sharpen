@@ -12,7 +12,9 @@ def length_last_word(s):
             word_length += 1
     return word_length
 
-assert length_last_word('Hey man whats up') == 2
-assert length_last_word('Yo') == 2
-assert length_last_word('Yo yo man ') == 3
-assert length_last_word('') == 0
+
+def test_length_last_word():
+    assert length_last_word('Hey man whats up') == 2
+    assert length_last_word('Yo') == 2
+    assert length_last_word('Yo yo man ') == 3
+    assert length_last_word('') == 0

@@ -21,16 +21,17 @@ def binary_sqrt_search(num):
     return last
 
 
-def sqrt(num):
-    return binary_sqrt_search(num)
+def test_binary_sqrt_search():
+    def sqrt(num):
+        return binary_sqrt_search(num)
 
-assert sqrt(3) == 1
-assert sqrt(0) == 0
-assert sqrt(1) == 1
-assert sqrt(4) == 2
-assert sqrt(8) == 2
-assert sqrt(9) == 3
-assert sqrt(16) == 4
-assert sqrt(25) == 5
-assert sqrt(26) == 5
-assert sqrt(308634616) == 17567
+    assert sqrt(3) == 1
+    assert sqrt(0) == 0
+    assert sqrt(1) == 1
+    assert sqrt(4) == 2
+    assert sqrt(8) == 2
+    assert sqrt(9) == 3
+    assert sqrt(16) == 4
+    assert sqrt(25) == 5
+    assert sqrt(26) == 5
+    assert sqrt(308634616) == 17567

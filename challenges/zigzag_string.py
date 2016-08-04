@@ -1,17 +1,12 @@
 """"
-PAYPALISHIRING
+The string 'ABCD' is written in a zigzag pattern on a given number
+of rows like this.
 
-P.......A........H.......N....
-..A..P....L....S....I...I....G
-....Y.........I........R......
-"""
+    A....C..
+    ...B....D
 
-
-"""
-ABCD
-
-A....C..
-...B....D
+Write the code that will take a string and make this conversion given a
+number of rows.
 """
 
 
@@ -38,6 +33,8 @@ def convert_text_zigzag_pattern(text, num_rows):
 
     return ''.join(distribute_chars_on_rows())
 
-assert convert_text_zigzag_pattern("HEYMAN", 1) == "HEYMAN"
-assert convert_text_zigzag_pattern("PAYPALISHIRING", 3) == "PAHNAPLSIIGYIR"
-assert convert_text_zigzag_pattern("ABCD", 2) == "ACBD"
+
+def test_convert_text_zigzag_pattern():
+    assert convert_text_zigzag_pattern("HEYMAN", 1) == "HEYMAN"
+    assert convert_text_zigzag_pattern("PAYPALISHIRING", 3) == "PAHNAPLSIIGYIR"
+    assert convert_text_zigzag_pattern("ABCD", 2) == "ACBD"

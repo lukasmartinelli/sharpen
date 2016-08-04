@@ -24,5 +24,5 @@ def nearest_smallest_element(arr):
 
 def test_nearest_smallest_element():
     assert nearest_smallest_element([4, 5, 2, 10, 12, 11] ) == [-1, 4, -1, 2, 10, 10]
-    assert nearest_smallest_element([4u]) == [-1]
+    assert nearest_smallest_element([4]) == [-1]
     assert nearest_smallest_element([]) == []

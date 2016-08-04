@@ -1,3 +1,8 @@
+"""
+Given a string S, find the longest palindromic substring in S.
+"""
+
+
 import itertools
 import collections
 
@@ -31,12 +36,13 @@ def longest_palindromic_substring(sentence):
 
     return max_palindrome
 
-lps = longest_palindromic_substring
 
-assert lps('aaaabaaa') == 'aaabaaa'
-assert lps('faxalaxabx') == 'axalaxa'
-assert lps('hululxlaluh') == 'ulu'
-assert is_palindrome('aba')
-assert not is_palindrome('abac')
-assert lps('aba') == 'aba'
-assert lps('ab') == 'a'
+def test_longest_palindromic_substring():
+    lps = longest_palindromic_substring
+    assert lps('aaaabaaa') == 'aaabaaa'
+    assert lps('faxalaxabx') == 'axalaxa'
+    assert lps('hululxlaluh') == 'ulu'
+    assert is_palindrome('aba')
+    assert not is_palindrome('abac')
+    assert lps('aba') == 'aba'
+    assert lps('ab') == 'a'

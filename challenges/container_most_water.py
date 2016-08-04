@@ -20,5 +20,6 @@ def container_most_water(heights):
     return max_area
 
 
-assert container_most_water([3, 4, 8, 10, 3, 6, 8, 3, 4, 1]) == 32
-assert container_most_water([1, 5, 4, 3]) == 6
+def test_container_most_water():
+    assert container_most_water([3, 4, 8, 10, 3, 6, 8, 3, 4, 1]) == 32
+    assert container_most_water([1, 5, 4, 3]) == 6

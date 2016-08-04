@@ -30,8 +30,9 @@ def diff_possible(numbers, k):
     return False
 
 
-assert diff_possible([0, 1, 1, 5, 6, 7, 8, 12, 22], 10)
-assert diff_possible([1, 3, 5], 4)
-assert not diff_possible([1, 3, 5], 3)
-assert diff_possible([1, 2, 10, 15], 5)
-assert not diff_possible([1, 2, 2], 5)
+def test_diff_possible():
+    assert diff_possible([0, 1, 1, 5, 6, 7, 8, 12, 22], 10)
+    assert diff_possible([1, 3, 5], 4)
+    assert not diff_possible([1, 3, 5], 3)
+    assert diff_possible([1, 2, 10, 15], 5)
+    assert not diff_possible([1, 2, 2], 5)

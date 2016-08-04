@@ -23,7 +23,8 @@ def roman_to_int(numeral):
     return current_value + roman_to_int(numeral[1:])
 
 
-assert roman_to_int('XIV') == 14
-assert roman_to_int('XX') == 20
-assert roman_to_int('MMXIV') == 2014
-assert roman_to_int('MCMXC') == 1990
+def test_roman_to_int():
+    assert roman_to_int('XIV') == 14
+    assert roman_to_int('XX') == 20
+    assert roman_to_int('MMXIV') == 2014
+    assert roman_to_int('MCMXC') == 1990
