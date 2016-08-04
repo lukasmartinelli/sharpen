@@ -1,47 +1,19 @@
-"""
-Example 1:
-
-matrix_1 = [
-    [ 1, 2, 3 ],
-    [ 4, 5, 6 ],
-    [ 7, 8, 9 ]
-]
-
-Go down the spiral order 1st call.
-
-order_1 = [1, 2, 3, 6, 9, 8, 7, 4]
-inner_matrix_1 = [
-    [ 5 ],
-]
-
-Go down the spiral order 2nd call.
-Base case is reached because m == n == 1
-order = [5]
-
-Example 2:
-
-matrix_2 = [
-    [  1,  2,  3,  4,  5,  6 ],
-    [  7,  8,  9, 10, 11, 12 ],
-    [ 13, 14, 15, 16, 17, 18 ]
-]
-
-Go down the spiral order 1st call.
-
-order_2 = [1, 2, 3, 4, 5, 6, 12, 18, 17, 16, 15, 14, 13, 7]
-inner_matrix_2 = [
-    [ 8,  9, 10, 11 ]
-]
-
-Go down the spiral order 2nd call.
-Now this is dangerous because the last row equals
-the first row as well.
-
-"""
-
-
 def spiral_order(matrix):
-    "Return m * n matrix in spiral order"
+    """
+    Return m * n matrix in spiral order.
+
+    Given the following matrix.
+
+        matrix = [
+            [1, 2, 3],
+            [4, 5, 6],
+            [7, 8, 9]
+        ]
+
+    The spiral order of the matrix.
+
+        spiral_order = [1, 2, 3, 6, 9, 8, 7, 4, 5]
+    """
     m = len(matrix)
     if m == 0:
         return
@@ -77,30 +49,28 @@ def spiral_order(matrix):
         yield row[0]
 
     # Peel off the shell
-    # [ x, x, x ],
-    # [ x, 5, x ],
-    # [ x, x, x ]
     inner_matrix = [row[1:-1] for row in matrix[1:-1]]
     for num in spiral_order(inner_matrix):
         yield num
-print(list(spiral_order([
-    [1]
-])))
 
-print(list(spiral_order([
-    [1],
-    [2],
-    [3]
-])))
 
-print(list(spiral_order([
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-])))
+def test_spiral_order_single_elem():
+    assert list(spiral_order([
+        [1]
+    ])) == [1]
 
-print(list(spiral_order([
-    [1, 2, 3,  4,  5, 6],
-    [7, 8, 9, 10, 11, 12],
-    [13, 14, 15, 16, 17, 18]
-])))
+
+def test_spiral_order_single_row():
+    assert list(spiral_order([
+        [1],
+        [2],
+        [3]
+    ])) == [1, 2, 3]
+
+
+def test_spiral_order():
+    assert list(spiral_order([
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]
+    ])) == [1, 2, 3, 6, 9, 8, 7, 4, 5]
