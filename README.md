@@ -13,15 +13,15 @@ in the comments of the corresponding Python files.
 
 ### Arrays
 
-- [x] **[zero_matrix.py](challenges/zero_matrix.py)**: Zero entire column and row in 2D matrix if element is `0`.
-- [x] **[merge_overlapping_intervals.py](challenges/merge_overlapping_intervals.py)**: Merge overlapping intervals in array together.
-- [x] **[array_duplicate.py](challenges/array_duplicate.py)**: Find the first duplicate in an array of integers.
-- [x] **[rotate_matrix.py](challenges/rotate_matrix.py)**: Rotate 2D matrix 90 degrees.
-- [x] **[spiral_order.py](challenges/spiral_order.py)**: Return a 2D matrix in spiral order.
-- [x] **[temp_tracker.py](challenges/temp_tracker.py)**: Temperature tracker to calculate mean, mode, min, max of temperature events.
-- [x] **[max_consecutive_gap.py](challenges/max_consecutive_gap.py)**: Find max consecutive gap of sorted form of unsorted numbers.
-- [x] **[find_permutation.py](challenges/find_permutation.py)**: Find first permutation based on two conditions.
-- [ ] **[max_subarray.py](challenges/max_subarray.py)**: Caluclate the max sum of a subarray :interrobang:.
+- [x] **[zero_matrix.py](challenges/array/zero_matrix.py)**: Zero entire column and row in 2D matrix if element is `0`.
+- [x] **[merge_overlapping_intervals.py](challenges/array/merge_overlapping_intervals.py)**: Merge overlapping intervals in array together.
+- [x] **[array_duplicate.py](challenges/array/array_duplicate.py)**: Find the first duplicate in an array of integers.
+- [x] **[rotate_matrix.py](challenges/array/rotate_matrix.py)**: Rotate 2D matrix 90 degrees.
+- [x] **[spiral_order.py](challenges/array/spiral_order.py)**: Return a 2D matrix in spiral order.
+- [x] **[temp_tracker.py](challenges/array/temp_tracker.py)**: Temperature tracker to calculate mean, mode, min, max of temperature events.
+- [x] **[max_consecutive_gap.py](challenges/array/max_consecutive_gap.py)**: Find max consecutive gap of sorted form of unsorted numbers.
+- [x] **[find_permutation.py](challenges/array/find_permutation.py)**: Find first permutation based on two conditions.
+- [ ] **[max_subarray.py](challenges/array/max_subarray.py)**: Caluclate the max sum of a subarray :interrobang:.
 
 ### Math
 
@@ -75,16 +75,16 @@ in the comments of the corresponding Python files.
 
 ### Backtracking / Recursion
 
-- [ ] **[modular_exponentiation.py](challenges/modular_exponentiation.py)**: Modular exponentiation is a type of exponentiation performed over a modulus.
-- [ ] **[permutations.py](challenges/permutations.py)**: Generate all permutations in a list
-- [ ] **[unique_permutations.py](challenges/unique_permutations.py)**: Calculate unique permutations
-- [ ] **[letter_phone.py](challenges/letter_phone.py)**: Generate all possible digits on letter phone
+- [ ] **[modular_exponentiation.py](challenges/backtracking/modular_exponentiation.py)**: Modular exponentiation is a type of exponentiation performed over a modulus.
+- [ ] **[permutations.py](challenges/backtracking/permutations.py)**: Generate all permutations in a list
+- [ ] **[unique_permutations.py](challenges/backtracking/unique_permutations.py)**: Calculate unique permutations
+- [ ] **[letter_phone.py](challenges/backtracking/letter_phone.py)**: Generate all possible digits on letter phone
 
 ### Hashing
 
-- [ ] **[two_sum.py](challenges/two_sum.py)**: Given an array of integers, find two numbers such that they add up to a specific target number
-- [ ] **[points_on_straight_line.py](challenges/points_on_straight_line.py)**: Given n points on 2D pane calculate max number of points on one straight line
-- [ ] **[longest_substring_no_repeat.py](challenges/longest_substring_no_repeat.py)**: Calculate longest substring with unique characters
+- [ ] **[two_sum.py](challenges/hashing/two_sum.py)**: Given an array of integers, find two numbers such that they add up to a specific target number
+- [ ] **[points_on_straight_line.py](challenges/hashing/points_on_straight_line.py)**: Given n points on 2D pane calculate max number of points on one straight line
+- [ ] **[longest_substring_no_repeat.py](challenges/hashing/longest_substring_no_repeat.py)**: Calculate longest substring with unique characters
 
 ### Trees
 
@@ -106,6 +106,5 @@ in the comments of the corresponding Python files.
 - [ ] **[sum_root_leaf_numbers.py](challenges/sum_root_leaf_numbers.py)**: Sum all root-to-leaf paths (node values are digits)
 
 ### Graphs
-- [ ] **[level_order.py](challenges/level_order.py)**: Traverse tree in level order (BFS)
-- [ ] **[black_shapes.py](challenges/black_shapes.py)**: Given a board of black and white fields find the number of black connected shapes
-
+- [ ] **[level_order.py](challenges/graphs/level_order.py)**: Traverse tree in level order (BFS)
+- [ ] **[black_shapes.py](challenges/graphs/black_shapes.py)**: Given a board of black and white fields find the number of black connected shapes
