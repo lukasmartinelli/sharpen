@@ -13,10 +13,10 @@ in the comments of the corresponding Python files.
 
 ### Arrays
 
-- **[zero_matrix.py](challenges/zero_matrix.py)**: Zero entire column and row if element is `0` in a `m x n` matrix of `0`s and `1`s.
-- **[merge_overlapping_intervals.py](challenges/merge_overlapping_intervals.py)**: Merge overlapping intervals in array together (e.g. `[(1, 3), (2, 5)] -> [(1, 5)]`).
-- **[array_duplicate.py](challenges/array_duplicate.py)**: Find the first duplicate in an array of `n + 1` integers between `1` and `n`.
-- **[rotate_matrix.py](challenges/rotate_matrix.py)**: Rotate `n x n` matrix 90 degrees.
+- **[zero_matrix.py](challenges/zero_matrix.py)**: Zero entire column and row in 2D matrix if element is `0`.
+- **[merge_overlapping_intervals.py](challenges/merge_overlapping_intervals.py)**: Merge overlapping intervals in array together.
+- **[array_duplicate.py](challenges/array_duplicate.py)**: Find the first duplicate in an array of integers.
+- **[rotate_matrix.py](challenges/rotate_matrix.py)**: Rotate 2D matrix 90 degrees.
 - **[spiral_order.py](challenges/spiral_order.py)**: Return a 2D matrix in spiral order
 - **[temp_tracker.py](challenges/temp_tracker.py)**: Temperature tracker to calculate mean, mode, min, max of temperature events
 - **[max_subarray.py](challenges/max_subarray.py)**: Caluclate the max sum ofa subarray.
