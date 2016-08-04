@@ -22,7 +22,7 @@ in the comments of the corresponding Python files.
 - [x] **[max_consecutive_gap.py](challenges/array/max_consecutive_gap.py)**: Find max consecutive gap of sorted form of unsorted numbers.
 - [x] **[find_permutation.py](challenges/array/find_permutation.py)**: Find first permutation based on two conditions.
 - [x] **[pascal_triangle.py](challenges/array/pascal_triangle.py)**: Generate the first n rows of the Pascal's triangle.
-- [x] **[wave_array.py](challenges/array/wave_array.py)**: Generate the first n rows of the Pascal's triangle.
+- [x] **[wave_array.py](challenges/array/wave_array.py)**: Sort array in a wave-like pattern.
 - [ ] **[max_subarray.py](challenges/array/max_subarray.py)**: Caluclate the max sum of a subarray :interrobang:.
 
 ### Math
@@ -46,6 +46,7 @@ in the comments of the corresponding Python files.
 ### Bit Manipulation
 
 - [x] **[bit_single_number.py](challenges/bit_manipulation/bit_single_number.py)**: Find single number in array of pairs.
+- [x] **[power_of_2.py](challenges/bit_manipulation/power_of_2.py)**: Check if number is power of 2.
 
 ### Two Pointers
 
@@ -58,6 +59,7 @@ in the comments of the corresponding Python files.
 - [ ] **[binary_matrix_search.py](challenges/binary_search/binary_matrix_search.py)**: Test for existence of element in matrix using binary search.
 - [ ] **[rotated_sorted_array_search.py](challenges/binary_search/rotated_sorted_array_search.py)**: A sorted array is rotated at one place :interrobang:.
 - [x] **[sqrt.py](challenges/binary_search/sqrt.py)**: Calculate square root using binary search.
+- [x] **[sorted_insert_position.py](challenges/binary_search/sorted_insert_position.py)**: Return found index of element or index where to insert it.
 
 ### Stack
 
@@ -65,6 +67,8 @@ in the comments of the corresponding Python files.
 - [ ] **[min_stack.py](challenges/stack/min_stack.py)**: Create a min stack preserving order of elements
 - [ ] **[nearest_smallest_element.py](challenges/stack/nearest_smallest_element.py)**: Find nearest element in array
 - [ ] **[simplify_directory_path.py](challenges/stack/simplify_directory_path.py)**: Simplify UNIX path
+- [x] **[evaluate_expression.py](challenges/stack/evaluate_expression.py)**: Evaluate the value of an arithmetic expression in Reverse Polish Notation.
+
 
 ### Linked Lists
 
@@ -112,6 +116,8 @@ in the comments of the corresponding Python files.
 - [ ] **[min_tree_depth.py](challenges/trees/min_tree_depth.py)**: Shortest path to leaf
 - [ ] **[sum_root_leaf_numbers.py](challenges/trees/sum_root_leaf_numbers.py)**: Sum all root-to-leaf paths (node values are digits)
 - [ ] **[merge_k_sorted_lists.py](challenges/trees/merge_k_sorted_lists.py)**: Merge k sorted lists into one
+- [ ] **[count_inversions.py](challenges/trees/count_inversions.py)**: Count the number of inversions in an array.
+- [ ] **[symmetric_binary_tree.py](challenges/trees/symmetric_binary_tree.py)**: Check if two binary trees are symmetric.
 
 ### Graphs
 - [ ] **[level_order.py](challenges/graphs/level_order.py)**: Traverse tree in level order (BFS)
