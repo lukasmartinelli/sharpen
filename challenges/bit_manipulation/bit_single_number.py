@@ -15,4 +15,5 @@ def find_single_number(arr):
     return int(math.log(single_number, 2))
 
 
-assert find_single_number([1, 2, 2, 3, 1]) == 3
+def test_find_single_number():
+    assert find_single_number([1, 2, 2, 3, 1]) == 3
