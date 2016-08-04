@@ -40,8 +40,9 @@ def column_number(column_name):
     return num
 
 
-assert column_number('A') == 1
-assert column_number('Z') == 26
-assert column_number('AA') == 27
-assert column_number('AB') == 28
-assert column_number('AAB') == 704
+def test_column_number():
+    assert column_number('A') == 1
+    assert column_number('Z') == 26
+    assert column_number('AA') == 27
+    assert column_number('AB') == 28
+    assert column_number('AAB') == 704

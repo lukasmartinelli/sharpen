@@ -1,3 +1,13 @@
+"""
+Determine whether an integer is a palindrome. Do this without extra space.
+
+A palindrome integer is an integer x for which reverse(x) = x where reverse(x)
+is x with its digit reversed. Negative numbers are not palindromic.
+
+For example the integer 12321 is palindromic while 12312 is not.
+"""
+
+
 def integer_len(n):
     length = 1
     while n / 10 > 0:
@@ -25,10 +35,18 @@ def is_integer_palindrom(n):
         else:
             return False
 
-assert integer_len(3) == 1
-assert integer_len(12345) == 5
-assert not is_integer_palindrom(12341)
-assert is_integer_palindrom(123321)
-assert is_integer_palindrom(5412145)
-assert is_integer_palindrom(11)
-assert not is_integer_palindrom(-1)
+
+def test_integer_len():
+    assert integer_len(3) == 1
+    assert integer_len(12345) == 5
+
+
+def test_is_integer_palindrom_for_negative_number():
+    assert not is_integer_palindrom(-1)
+
+
+def test_is_integer_palindrom():
+    assert not is_integer_palindrom(12341)
+    assert is_integer_palindrom(123321)
+    assert is_integer_palindrom(5412145)
+    assert is_integer_palindrom(11)

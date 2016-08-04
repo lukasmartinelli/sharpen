@@ -13,20 +13,20 @@ in the comments of the corresponding Python files.
 
 ### Arrays
 
-- **[zero_matrix.py](challenges/zero_matrix.py)**: Zero entire column and row if element is `0` in a `m x n` matrix of `0`s and `1`s.
-- **[merge_overlapping_intervals.py](challenges/merge_overlapping_intervals.py)**: Merge overlapping intervals in array together (e.g. `[(1, 3), (2, 5)] -> [(1, 5)]`).
-- **[array_duplicate.py](challenges/array_duplicate.py)**: Find the first duplicate in an array of `n + 1` integers between `1` and `n`.
-- **[rotate_matrix.py](challenges/rotate_matrix.py)**: Rotate `n x n` matrix 90 degrees.
-- **[spiral_order.py](challenges/spiral_order.py)**: Return a 2D matrix in spiral order
-- **[temp_tracker.py](challenges/temp_tracker.py)**: Temperature tracker to calculate mean, mode, min, max of temperature events
-- **[max_consecutive_gap.py](challenges/max_consecutive_gap.py)**: Find max consecutive gap of sorted form of unsorted numbers
-- **[find_permutation.py](challenges/find_permutation.py)**: Find first permutation based on two conditions.
-- **[max_subarray.py](challenges/max_subarray.py)**: Calculate the max sum of a subarray.
+- [x] **[zero_matrix.py](challenges/zero_matrix.py)**: Zero entire column and row in 2D matrix if element is `0`.
+- [x] **[merge_overlapping_intervals.py](challenges/merge_overlapping_intervals.py)**: Merge overlapping intervals in array together.
+- [x] **[array_duplicate.py](challenges/array_duplicate.py)**: Find the first duplicate in an array of integers.
+- [x] **[rotate_matrix.py](challenges/rotate_matrix.py)**: Rotate 2D matrix 90 degrees.
+- [x] **[spiral_order.py](challenges/spiral_order.py)**: Return a 2D matrix in spiral order.
+- [x] **[temp_tracker.py](challenges/temp_tracker.py)**: Temperature tracker to calculate mean, mode, min, max of temperature events.
+- [x] **[max_consecutive_gap.py](challenges/max_consecutive_gap.py)**: Find max consecutive gap of sorted form of unsorted numbers.
+- [x] **[find_permutation.py](challenges/find_permutation.py)**: Find first permutation based on two conditions.
+- [ ] **[max_subarray.py](challenges/max_subarray.py)**: Caluclate the max sum of a subarray :interrobang:.
 
 ### Math
 
-- **[palindrome_integer.py](challenges/palindrome_integer.py)**: Check if integer is palindrome without converting it to text
-- **[excel_column_number.py](challenges/excel_column_number.py)**: Return column number based on Excel encoded column title
+- [x] **[palindrome_integer.py](challenges/palindrome_integer.py)**: Check if integer is palindrome without converting it to text.
+- [x] **[excel_column_number.py](challenges/excel_column_number.py)**: Return column number based on Excel encoded column title.
 
 ### Strings
 
@@ -43,7 +43,7 @@ in the comments of the corresponding Python files.
 
 ### Bit Manipulation
 
-- **[bit_single_number.py](challenges/bit_single_number.py)**: Find single number in array of pairs
+- **[bit_single_number.py](challenges/bit_single_number.py)**: Find single number in array of pairs.
 
 ### Two Pointers
 
