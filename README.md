@@ -23,12 +23,17 @@ in the comments of the corresponding Python files.
 - [x] **[find_permutation.py](challenges/array/find_permutation.py)**: Find first permutation based on two conditions.
 - [x] **[pascal_triangle.py](challenges/array/pascal_triangle.py)**: Generate the first n rows of the Pascal's triangle.
 - [x] **[wave_array.py](challenges/array/wave_array.py)**: Sort array in a wave-like pattern.
-- [ ] **[max_subarray.py](challenges/array/max_subarray.py)**: Caluclate the max sum of a subarray :interrobang:.
+- [x] **[sorted_array_intersection.py](challenges/array/sorted_array_intersection.py)**: Find elements that occur in both of the two sorted arrays.
+- [x] **[rearrange_array.py](challenges/array/rearrange_array.py)**: Rearrange array so that the values become the indizes.
+- [ ] **[max_subarray.py](challenges/array/max_subarray.py)**: Calculate the max sum of a subarray :interrobang:.
+- [ ] **[min_steps_infinite_grid.py](challenges/array/min_steps_infinite_grid.py)**: Cover given points in 2D grid in minimum steps.
 
 ### Math
 
 - [x] **[palindrome_integer.py](challenges/math/palindrome_integer.py)**: Check if integer is palindrome without converting it to text.
 - [x] **[excel_column_number.py](challenges/math/excel_column_number.py)**: Return column number based on Excel encoded column title.
+- [x] **[factorial_trailing_zeros.py](challenges/math/factorial_trailing_zeros.py)**: Count trailing zeros in factorial (`n!`).
+- [ ] **[two_egg_problem.py](challenges/math/two_egg_problem.py)**: Solve the [Two Egg Problem](http://datagenetics.com/blog/july22012/index.html) :interrobang:.
 
 ### Strings
 
@@ -60,6 +65,9 @@ in the comments of the corresponding Python files.
 - [ ] **[rotated_sorted_array_search.py](challenges/binary_search/rotated_sorted_array_search.py)**: A sorted array is rotated at one place :interrobang:.
 - [x] **[sqrt.py](challenges/binary_search/sqrt.py)**: Calculate square root using binary search.
 - [x] **[sorted_insert_position.py](challenges/binary_search/sorted_insert_position.py)**: Return found index of element or index where to insert it.
+- [x] **[search_range.py](challenges/binary_search/search_range.py)**: Find range (start and end index) of a value in a sorted list.
+- [x] **[binary_occurrence_search.py](challenges/binary_search/binary_occurrence_search.py)**: Count number of occurences of target value in sorted list.
+- [x] **[power.py](challenges/binary_search/power.py)**: Implement `pow(x, n) % d`.
 
 ### Stack
 
@@ -118,6 +126,10 @@ in the comments of the corresponding Python files.
 - [ ] **[merge_k_sorted_lists.py](challenges/trees/merge_k_sorted_lists.py)**: Merge k sorted lists into one
 - [ ] **[count_inversions.py](challenges/trees/count_inversions.py)**: Count the number of inversions in an array.
 - [ ] **[symmetric_binary_tree.py](challenges/trees/symmetric_binary_tree.py)**: Check if two binary trees are symmetric.
+
+### Greedy
+
+- [x] **[trading_stock.py](challenges/greedy/trading_stock.py)**: Figure out max profit given the stock prices of yesterday.
 
 ### Graphs
 - [ ] **[level_order.py](challenges/graphs/level_order.py)**: Traverse tree in level order (BFS)

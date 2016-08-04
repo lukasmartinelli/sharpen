@@ -1,7 +1,3 @@
-stock_prices_yesterday = [10, 7, 5, 8, 3, 4, 10, 11, 2, 4, 5]
-stock_prices_crash = [10, 7, 5, 1]
-
-
 def max_profit_yesterday(stock_prices):
     max_profit = stock_prices[1] - stock_prices[0]
     min_price = stock_prices[0]
@@ -14,7 +10,11 @@ def max_profit_yesterday(stock_prices):
     return max_profit
 
 
-print(max_profit_yesterday(stock_prices_yesterday))
+def test_max_profit_yesterday_normal():
+    stock_prices_yesterday = [10, 7, 5, 8, 3, 4, 10, 11, 2, 4, 5]
+    assert max_profit_yesterday(stock_prices_yesterday) == 8
 
-# Stock goes only down - profit is negative
-print(max_profit_yesterday(stock_prices_crash))
+
+def test_max_profit_yesterday_crash():
+    stock_prices_crash = [10, 7, 5, 1]
+    assert max_profit_yesterday(stock_prices_crash) == -2

@@ -36,8 +36,9 @@ def rearrange_array(arr):
     return arr
 
 
-assert rearrange_array([0, 1]) == [0, 1]
-assert rearrange_array([1, 0]) == [0, 1]
-assert rearrange_array([2, 0, 1, 4, 3, 6, 5]) == [1, 2, 0, 3, 4, 5, 6]
-assert rearrange_array([0]) == [0]
-assert rearrange_array([]) == []
+def test_rearrange_array():
+    assert rearrange_array([0, 1]) == [0, 1]
+    assert rearrange_array([1, 0]) == [0, 1]
+    assert rearrange_array([2, 0, 1, 4, 3, 6, 5]) == [1, 2, 0, 3, 4, 5, 6]
+    assert rearrange_array([0]) == [0]
+    assert rearrange_array([]) == []

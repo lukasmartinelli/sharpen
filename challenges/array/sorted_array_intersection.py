@@ -1,9 +1,10 @@
+"""
+Given 2 sorted arrays, find all the elements
+which occur in both the arrays.
+"""
+
 
 def intersection(arr_a, arr_b):
-    """
-    Given 2 sorted arrays, find all the elements
-    which occur in both the arrays.
-    """
     i = 0
     j = 0
 

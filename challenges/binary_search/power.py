@@ -1,3 +1,9 @@
+"""
+Implement pow(x, n) % d.
+In other words, given x, n and d,
+find x^n % d.
+"""
+
 
 def custom_pow(x, y):
     def multiply(a, b):
@@ -27,9 +33,13 @@ def find_pow(x, n, d):
     return (remainder1 * remainder2) % d
 
 
-assert custom_pow(3, 4) == pow(3, 4)
-assert find_pow(2, 3, 3) == 2
-assert find_pow(4, 8, 5) == 1
-assert find_pow(7, 9, 4) == 3
-assert find_pow(0, 0, 1) == 0
-assert find_pow(-1, 1, 20) == 19
+def test_custom_pow():
+    assert custom_pow(3, 4) == pow(3, 4)
+
+
+def test_find_pow():
+    assert find_pow(2, 3, 3) == 2
+    assert find_pow(4, 8, 5) == 1
+    assert find_pow(7, 9, 4) == 3
+    assert find_pow(0, 0, 1) == 0
+    assert find_pow(-1, 1, 20) == 19

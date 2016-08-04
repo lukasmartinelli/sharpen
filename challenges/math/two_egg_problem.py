@@ -56,9 +56,12 @@ def find_highest_floor(floors):
     return ascending_drop_egg_until_breaks(first_breaking_floor)
 
 
-building1 = building(breaking_floor=54)
-print('Highest floor: {}'.format(find_highest_floor(building1)))
-building2 = building(breaking_floor=25)
-print('Highest floor: {}'.format(find_highest_floor(building2)))
-building3 = building(breaking_floor=100)
-print('Highest floor: {}'.format(find_highest_floor(building3)))
+def test_find_highest_floor():
+    building1 = building(breaking_floor=54)
+    assert find_highest_floor(building1) == 53
+
+    building2 = building(breaking_floor=25)
+    assert find_highest_floor(building2) == 24
+
+    building3 = building(breaking_floor=100)
+    assert find_highest_floor(building3) == 99
