@@ -128,6 +128,7 @@ in the comments of the corresponding Python files.
 - [ ] **[merge_k_sorted_lists.py](challenges/trees/merge_k_sorted_lists.py)**: Merge k sorted lists into one
 - [ ] **[count_inversions.py](challenges/trees/count_inversions.py)**: Count the number of inversions in an array.
 - [ ] **[symmetric_binary_tree.py](challenges/trees/symmetric_binary_tree.py)**: Check if two binary trees are symmetric.
+- [x] **[least_common_ancestor.py](challenges/trees/least_common_ancestor.py)**: Find the least common ancestor of two values in an unordered binary tree.
 
 ### Greedy
 
