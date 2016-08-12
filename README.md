@@ -129,6 +129,7 @@ in the comments of the corresponding Python files.
 - [ ] **[count_inversions.py](challenges/trees/count_inversions.py)**: Count the number of inversions in an array.
 - [ ] **[symmetric_binary_tree.py](challenges/trees/symmetric_binary_tree.py)**: Check if two binary trees are symmetric.
 - [x] **[least_common_ancestor.py](challenges/trees/least_common_ancestor.py)**: Find the least common ancestor of two values in an unordered binary tree.
+- [x] **[shortest_unique_prefix.py](challenges/trees/shortest_unique_prefix.py)**: Find the shortest unique prefix for each word in a set of words.
 
 ### Greedy
 
