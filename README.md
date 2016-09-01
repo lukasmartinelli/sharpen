@@ -130,6 +130,7 @@ in the comments of the corresponding Python files.
 - [ ] **[symmetric_binary_tree.py](challenges/trees/symmetric_binary_tree.py)**: Check if two binary trees are symmetric.
 - [x] **[least_common_ancestor.py](challenges/trees/least_common_ancestor.py)**: Find the least common ancestor of two values in an unordered binary tree.
 - [x] **[shortest_unique_prefix.py](challenges/trees/shortest_unique_prefix.py)**: Find the shortest unique prefix for each word in a set of words.
+- [x] **[order_people_heights.py](challenges/trees/order_people_heights.py)**: Order people with unique heights by the constraint how many taller people are standing in front of them.
 
 ### Greedy
 
