@@ -1,4 +1,7 @@
 def pascal_triangle(num_rows):
+    """
+    Calculate the pascal triangle for a given number of rows.
+    """
     def get_elem(arr, idx, default):
         if idx < 0 or idx >= len(arr):
             return default

@@ -1,12 +1,22 @@
-"""
-You are in an infinite 2D grid where you can move in any of the 8 directions.
-You are given a sequence of points and the order in which you need to cover
-the points. Give the minimum number of steps in which you can achieve it.
-You start from the first point.
-"""
 
 
 def cover_points(points):
+    """
+    Find the minimum number of steps to cover a sequence of points in the
+    order they need to be covered.
+    The points are in an infinite 2D grid and one can move in any of the
+    8 directions.
+
+        points = [(0,0, (2,2), (0,5)]
+
+          0 1 2
+        0 *
+        1   \
+        2     *
+        3   /
+        4 |
+        5 *
+    """
     moves = 0
     for prev_point, point in zip(points, points[1:]):
         prev_x, prev_y = prev_point
