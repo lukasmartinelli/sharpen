@@ -15,7 +15,6 @@ in the comments of the corresponding Python files.
 
 - [x] **[zero_matrix.py](challenges/array/zero_matrix.py)**: Zero entire column and row in 2D matrix if element is `0`.
 - [x] **[merge_overlapping_intervals.py](challenges/array/merge_overlapping_intervals.py)**: Merge overlapping intervals in array together.
-- [x] **[array_duplicate.py](challenges/array/array_duplicate.py)**: Find the first duplicate in an array of integers.
 - [x] **[rotate_matrix.py](challenges/array/rotate_matrix.py)**: Rotate 2D matrix 90 degrees.
 - [x] **[spiral_order.py](challenges/array/spiral_order.py)**: Return a 2D matrix in spiral order.
 - [x] **[temp_tracker.py](challenges/array/temp_tracker.py)**: Temperature tracker to calculate mean, mode, min, max of temperature events.
@@ -25,8 +24,9 @@ in the comments of the corresponding Python files.
 - [x] **[wave_array.py](challenges/array/wave_array.py)**: Sort array in a wave-like pattern.
 - [x] **[sorted_array_intersection.py](challenges/array/sorted_array_intersection.py)**: Find elements that occur in both of the two sorted arrays.
 - [x] **[rearrange_array.py](challenges/array/rearrange_array.py)**: Rearrange array so that the values become the indizes.
+- [x] **[min_steps_infinite_grid.py](challenges/array/min_steps_infinite_grid.py)**: Cover given points in 2D grid in minimum steps.
 - [ ] **[max_subarray.py](challenges/array/max_subarray.py)**: Calculate the max sum of a subarray :interrobang:.
-- [ ] **[min_steps_infinite_grid.py](challenges/array/min_steps_infinite_grid.py)**: Cover given points in 2D grid in minimum steps.
+- [ ] **[array_duplicate.py](challenges/array/array_duplicate.py)**: Find the first duplicate in an array of integers :x:.
 
 ### Math
 
@@ -97,6 +97,9 @@ in the comments of the corresponding Python files.
 - [ ] **[permutations.py](challenges/backtracking/permutations.py)**: Generate all permutations in a list
 - [ ] **[unique_permutations.py](challenges/backtracking/unique_permutations.py)**: Calculate unique permutations
 - [ ] **[letter_phone.py](challenges/backtracking/letter_phone.py)**: Generate all possible digits on letter phone
+- [ ] **[gen_parens.py](challenges/backtracking/gen_parens.py)**: Given n pairs of parentheses generate all combinations of well formed parentheses.
+- [x] **[combinations.py](challenges/backtracking/combinations.py)**: Given n numbers generate all possible k combinations
+
 
 ### Hashing
 
@@ -107,6 +110,7 @@ in the comments of the corresponding Python files.
 ### Maps
 - [ ] **[anagrams.py](challenges/hashing/anagrams.py)**: Given list of words return all words that are anagram of a given string.
 - [ ] **[distinct_numbers_in_window.py](challenges/hashing/distinct_numbers_in_window.py)**: Given list of integers return the distinct numbers in window of size k.
+- [x] **[majority_element.py](challenges/backtracking/majority_element.py)**: Given an array find the majority element
 
 ### Trees
 
@@ -135,6 +139,8 @@ in the comments of the corresponding Python files.
 ### Greedy
 
 - [x] **[trading_stock.py](challenges/greedy/trading_stock.py)**: Figure out max profit given the stock prices of yesterday.
+- [x] **[bulbs.py](challenges/greedy/bulbs.py)**: Given wrong wired light bulbs find the min number of switches to press to turn on all the bulbs.
+- [x] **[mice_holes.py](challenges/greedy/mice_holes.py)**: Given M mice and N holes on a straight line find min number of moves to assign all mice to the holes.
 
 ### Graphs
 - [ ] **[level_order.py](challenges/graphs/level_order.py)**: Traverse tree in level order (BFS)
