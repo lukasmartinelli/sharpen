@@ -57,9 +57,9 @@ in the comments of the corresponding Python files.
 
 ### Two Pointers
 
-- [x] **[diffk.py](challenges/diffk.py)**: Find two values in sorted array with a difference of k.
-- [x] **[container_most_water.py](challenges/container_most_water.py)**: Based  on vertical lines on a x-axis find the lines having the largest area.
-- [ ] **[rectangle_intersection.py](challenges/rectangle_intersection.py)**: Find intersection of two rectangles.
+- [x] **[diffk.py](challenges/two_pointers/diffk.py)**: Find two values in sorted array with a difference of k.
+- [x] **[container_most_water.py](challenges/two_pointers/container_most_water.py)**: Based  on vertical lines on a x-axis find the lines having the largest area.
+- [ ] **[rectangle_intersection.py](challenges/two_pointers/rectangle_intersection.py)**: Find intersection of two rectangles.
 
 ### Binary Search
 
