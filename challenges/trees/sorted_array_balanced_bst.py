@@ -9,6 +9,9 @@ class TreeNode():
 
 
 def sorted_array_to_bst(arr):
+    """
+    Given a sorted array turn it into a balanced binary tree
+    """
     if len(arr) == 0:
         return None
 

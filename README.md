@@ -114,12 +114,12 @@ in the comments of the corresponding Python files.
 
 ### Trees
 
-- [ ] **[identical_binary_tree.py](challenges/trees/identical_binary_tree.py)**: Compare two binary trees
-- [ ] **[inorder_traversal.py](challenges/trees/inorder_traversal.py)**: Binary tree inorder traversal
-- [ ] **[postorder_traversal.py](challenges/trees/postorder_traversal.py)**: Binary tree postorder traversal
-- [ ] **[preorder_traversal.py](challenges/trees/preorder_traversal.py)**: Binary tree preorder traversal
-- [ ] **[sorted_array_balanced_bst.py](challenges/trees/sorted_array_balanced_bst.py)**: Turn sorted array into balanced BST
-- [ ] **[invert_binary_tree.py](challenges/trees/invert_binary_tree.py)**: Invert binary tree
+- [x] **[identical_binary_tree.py](challenges/trees/identical_binary_tree.py)**: Compare two binary trees
+- [x] **[inorder_traversal.py](challenges/trees/inorder_traversal.py)**: Binary tree inorder traversal
+- [x] **[postorder_traversal.py](challenges/trees/postorder_traversal.py)**: Binary tree postorder traversal
+- [x] **[preorder_traversal.py](challenges/trees/preorder_traversal.py)**: Binary tree preorder traversal
+- [x] **[sorted_array_balanced_bst.py](challenges/trees/sorted_array_balanced_bst.py)**: Turn sorted array into balanced BST
+- [x] **[invert_binary_tree.py](challenges/trees/invert_binary_tree.py)**: Invert binary tree
 - [ ] **[path_sum.py](challenges/trees/path_sum.py)**: Compare path sum of leaf nodes
 - [ ] **[flatten_binary_tree_linked_list.py](challenges/trees/flatten_binary_tree_linked_list.py)**: Flatten a binary tree into a right sided linked list
 - [ ] **[balanced_binary_tree.py](challenges/trees/balanced_binary_tree.py)**: Check if a tree is balanced

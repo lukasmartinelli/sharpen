@@ -11,6 +11,11 @@ class TreeNode():
         return eq_node(self, other)
 
 
+def is_same_tree(tree_a, tree_b):
+    "Given two binary trees ensure they have the same nodes."
+    return compare_recursive(tree_a, tree_b)
+
+
 def compare_recursive(a, b):
     if not a and not b:
         return True
@@ -25,10 +30,6 @@ def compare_recursive(a, b):
         return False
 
     return compare_recursive(a.left, b.left) and compare_recursive(a.right, b.right)
-
-
-def is_same_tree(tree_a, tree_b):
-    return compare_recursive(tree_a, tree_b)
 
 
 def test_is_same_tree():

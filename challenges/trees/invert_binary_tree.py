@@ -9,6 +9,9 @@ class TreeNode():
 
 
 def invert_tree(node):
+    """
+    Swap the left with the right subtree to invert the binary tree
+    """
     if node is None:
         return node
 
