@@ -136,12 +136,13 @@ in the comments of the corresponding Python files.
 - [x] **[shortest_unique_prefix.py](challenges/trees/shortest_unique_prefix.py)**: Find the shortest unique prefix for each word in a set of words.
 - [x] **[order_people_heights.py](challenges/trees/order_people_heights.py)**: Order people with unique heights by the constraint how many taller people are standing in front of them.
 
-### Greedy
+### Graphs
+- [ ] **[level_order.py](challenges/graphs/level_order.py)**: Traverse tree in level order (BFS)
+- [ ] **[black_shapes.py](challenges/graphs/black_shapes.py)**: Given a board of black and white fields find the number of black connected shapes
+
+Greedy
+------
 
 - [x] **[trading_stock.py](challenges/greedy/trading_stock.py)**: Figure out max profit given the stock prices of yesterday.
 - [x] **[bulbs.py](challenges/greedy/bulbs.py)**: Given wrong wired light bulbs find the min number of switches to press to turn on all the bulbs.
 - [x] **[mice_holes.py](challenges/greedy/mice_holes.py)**: Given M mice and N holes on a straight line find min number of moves to assign all mice to the holes.
-
-### Graphs
-- [ ] **[level_order.py](challenges/graphs/level_order.py)**: Traverse tree in level order (BFS)
-- [ ] **[black_shapes.py](challenges/graphs/black_shapes.py)**: Given a board of black and white fields find the number of black connected shapes
