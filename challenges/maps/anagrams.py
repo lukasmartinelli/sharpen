@@ -6,6 +6,10 @@ def anagram_id(word):
 
 
 def anagrams(words):
+    """
+    Given an array of strings, return all groups of strings that are anagrams.
+    Represent a group by a list of integers representing the index in the original list.
+    """
     lookup = collections.OrderedDict()
 
     for idx, word in enumerate(words, start=1):
