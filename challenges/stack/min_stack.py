@@ -1,35 +1,33 @@
 class MinStack:
-    "2 * O(n) space"
+    """
+    Implement a stack that supports push, pop, top and getMin in O(1) time.
+    """
     def __init__(self):
-        self.min_elements = []
-        self.ordered_elements = []
+        self.elements = []
 
     def push(self, x):
         "O(1)"
-        if len(self.min_elements) == 0 or x < self.min_elements[-1]:
-            self.min_elements.append(x)
+        if len(self.elements) == 0:
+            self.elements.append((x, x))
         else:
-            self.min_elements.append(self.min_elements[-1])
-
-        self.ordered_elements.append(x)
+            self.elements.append((x, min(x, self.getMin())))
 
     def pop(self):
         "O(1)"
-        if len(self.ordered_elements) > 0:
-            self.min_elements.pop()
-            self.ordered_elements.pop()
+        if len(self.elements) > 0:
+            return self.elements.pop()[0]
 
     def top(self):
         "O(1)"
-        if len(self.ordered_elements) > 0:
-            return self.ordered_elements[-1]
+        if len(self.elements) > 0:
+            return self.elements[-1][0]
         else:
             return -1
 
     def getMin(self):
         "O(1)"
-        if len(self.min_elements) > 0:
-            return self.min_elements[-1]
+        if len(self.elements) > 0:
+            return self.elements[-1][1]
         else:
             return -1
 
