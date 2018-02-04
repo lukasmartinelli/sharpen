@@ -108,7 +108,7 @@ in the comments of the corresponding Python files.
 - [ ] **[longest_substring_no_repeat.py](challenges/hashing/longest_substring_no_repeat.py)**: Calculate longest substring with unique characters
 
 ### Maps
-- [ ] **[anagrams.py](challenges/hashing/anagrams.py)**: Given list of words return all words that are anagram of a given string.
+- [x] **[anagrams.py](challenges/maps/anagrams.py)**: Given list of words return all words that are anagram of a given string.
 - [ ] **[distinct_numbers_in_window.py](challenges/hashing/distinct_numbers_in_window.py)**: Given list of integers return the distinct numbers in window of size k.
 - [x] **[majority_element.py](challenges/backtracking/majority_element.py)**: Given an array find the majority element
 
