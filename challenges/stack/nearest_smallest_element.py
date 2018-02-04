@@ -1,6 +1,8 @@
-
-
 def nearest_smallest_element(arr):
+    """
+    Given an array arr, find the nearest smaller element for each element.
+    The index of the smaller element must be smaller than the current element.
+    """
     smaller_numbers = []
 
     def nearest(n):
