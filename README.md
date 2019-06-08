@@ -2,9 +2,8 @@
 
 <img align="right" alt="mbtoolbox" src="keep_tools_sharp.png" />
 
-One day after another a new challenge, a new problem to sharpen
-the tools. This is a collection of small (< 1h) Python challenges
-to improve my skills.
+This is a collection of small (< 1h) Python challenges
+to keep your Python skills sharp.
 
 ## Challenges
 
@@ -25,8 +24,9 @@ in the comments of the corresponding Python files.
 - [x] **[sorted_array_intersection.py](challenges/array/sorted_array_intersection.py)**: Find elements that occur in both of the two sorted arrays.
 - [x] **[rearrange_array.py](challenges/array/rearrange_array.py)**: Rearrange array so that the values become the indizes.
 - [x] **[min_steps_infinite_grid.py](challenges/array/min_steps_infinite_grid.py)**: Cover given points in 2D grid in minimum steps.
-- [ ] **[max_subarray.py](challenges/array/max_subarray.py)**: Calculate the max sum of a subarray :interrobang:.
-- [ ] **[array_duplicate.py](challenges/array/array_duplicate.py)**: Find the first duplicate in an array of integers :x:.
+- [ ] **[max_subarray.py](challenges/array/max_subarray.py)**: Calculate the max sum of a subarray.
+- [ ] **[array_duplicate.py](challenges/array/array_duplicate.py)**: Find the first duplicate in an array of integers.
+
 
 ### Math
 
@@ -34,7 +34,7 @@ in the comments of the corresponding Python files.
 - [x] **[excel_column_number.py](challenges/math/excel_column_number.py)**: Return column number based on Excel encoded column title.
 - [x] **[factorial_trailing_zeros.py](challenges/math/factorial_trailing_zeros.py)**: Count trailing zeros in factorial (`n!`).
 - [x] **[greatest_common_divisor.py](challenges/math/greatest_common_divisor.py)**: Greatest common divisor of two numbers.
-- [ ] **[two_egg_problem.py](challenges/math/two_egg_problem.py)**: Solve the [Two Egg Problem](http://datagenetics.com/blog/july22012/index.html) :interrobang:.
+- [ ] **[two_egg_problem.py](challenges/math/two_egg_problem.py)**: Solve the [Two Egg Problem](http://datagenetics.com/blog/july22012/index.html)
 
 ### Strings
 
@@ -48,7 +48,7 @@ in the comments of the corresponding Python files.
 - [x] **[length_last_word.py](challenges/string/length_last_word.py)**: Calculate length of last word in sentence.
 - [x] **[longest_common_prefix.py](challenges/string/longest_common_prefix.py)**: Find longest common prefix in all strings.
 - [x] **[reverse_string_inplace.py](challenges/string/reverse_string_inplace.py)**: Reverse string or array in place.
-- [ ] **[string_multiplication.py](challenges/string/string_multiplication.py)**: Multiply two numbers represented as strings without big integer libraries. :interrobang:
+- [ ] **[string_multiplication.py](challenges/string/string_multiplication.py)**: Multiply two numbers represented as strings without big integer libraries.
 
 ### Bit Manipulation
 
