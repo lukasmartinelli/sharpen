@@ -27,8 +27,7 @@ in the comments of the corresponding Python files.
 - [ ] **[max_subarray.py](challenges/array/max_subarray.py)**: Calculate the max sum of a subarray.
 - [ ] **[array_duplicate.py](challenges/array/array_duplicate.py)**: Find the first duplicate in an array of integers.
 
-
-### Math
+### Math
 
 - [x] **[palindrome_integer.py](challenges/math/palindrome_integer.py)**: Check if integer is palindrome without converting it to text.
 - [x] **[excel_column_number.py](challenges/math/excel_column_number.py)**: Return column number based on Excel encoded column title.
